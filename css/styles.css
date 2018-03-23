@@ -96,9 +96,5 @@ ul {
 /*changing the margin of the form*/
 form {
     margin: 0 auto;
-}
-
-/*modifying the size of the text inputs*/
-.textinput{
-    size: 50%;
+    width: 50%;
 }
