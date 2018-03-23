@@ -1,13 +1,16 @@
+/*Change the font-family and size of the whole text */
 * {
     font-family: Helvetica;
     font-size: 1em;
 }
 
+/*Remove the padding and the margin on the body*/
 body {
     padding: 0;
     margin: 0;
 }
 
+/*Adding the media property to css stylesheet*/
 @media (max-width: 700px) {
 
     * {
@@ -20,4 +23,82 @@ body {
         padding: 1em 1em;
     }
 
+}
+
+/*Change the height and the style of all pictures*/
+.pictures {
+    height: 300px;
+    border-radius: 1em;
+    box-shadow: 5px 5px 3px #c54141;
+    display: block;
+    margin: auto;
+}
+
+/*modify the hover of the pictures*/
+.pictures:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 8px red;
+}
+
+/*changing the color and the top margin of the headings*/
+h1, h2, h3, h4, h5, h6{
+    color: green;
+    margin-top: 1.5em;
+}
+
+/*giving a different style and background to the section class*/
+.sections {
+    background-color: lightgray;
+    padding: 1em;
+    border: solid;
+    border-radius: 0.5em;
+    border-color: lightblue;
+}
+
+/*making the third heading to float at left*/
+.floatleft {
+    float: left;
+}
+
+/*making the fourth heading to float at rigth*/
+.floatright {
+    float: right;
+}
+
+/*allows the text under third and fourth heading to remove the float condition*/
+.stayclear {
+    clear: both;
+}
+
+/*change the font of the unordered lists*/
+ul {
+    font-style: italic;
+}
+
+/*modify only the content of the second element of the lists*/
+.unique {
+    color: yellow;
+    font-weight: bold;
+}
+
+/*changing the position and the margin of the div container*/
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*modify the style of the hyperlinks*/
+.hyperlink {
+    color: green;
+    text-decoration: none;
+}
+
+/*changing the margin of the form*/
+form {
+    margin: 0 auto;
+}
+
+/*modifying the size of the text inputs*/
+.textinput{
+    size: 50%;
 }
